@@ -8,7 +8,7 @@ Raspberry Pi是瑞士军刀般的小型计算机，非常适合学习代码。
 - 安装
 ```
 curl --proto '=https'  -sSf https://sh.rustup.rs | sh  # to install rustc and cargo (HOME dir)
-source $HOME/.cargo/env                                              # to configure the current shell (PATH env)
+source $HOME/.cargo/env                                # to configure the current shell (PATH env)
 ```
 
 - 检查

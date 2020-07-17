@@ -67,6 +67,15 @@ cargo build --release
 - 也可以`cargo run`直接运行;
 - `build`之前, 可以先`cargo check`检查一下依赖是否完整和代码能否编译.
 
-## TODO
+### TODO
 这整个过程与在PC或服务器上使用rust没有任何不同?!
 那么, 不同会在哪里, 相关的库??
+
+### ps
+如需在`Windows`上安装`rust`, 可以使用科大源.
+具体的, 在`powershell`窗口, 运行如下命令:
+```
+    $ENV:RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static'
+    $ENV:RUSTUP_UPDATE_ROOT='https://mirrors.ustc.edu.cn/rust-static/rustup'
+```
+然后, 在该窗口运行`rustup-init.exe`.
